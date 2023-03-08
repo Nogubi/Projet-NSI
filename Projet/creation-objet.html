@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css"/>
+        <title>Création d'une annonce</title>
+    </head>
+    <body>
+        <div class="cadre">
+        <h1>Créer une annonce</h1>
+        <form enctype="multipart/form-data" method="post" action="Analyse.php">
+            <label for="nom">Nom de l'annonce</label>
+                <input type="text" name="nom"></input></br></br>
+            <label for="desc">Description</label>
+                <textarea name="desc" rows="5" cols="80">
+                </textarea></br></br>
+            <label for="lieu">Lieu de découverte</label>
+                <input type="text" name="lieu"></input></br></br>
+            <label for="image">Photo :</label>
+                <input type="file" accept=".jpg,.jpeg,.png" name="photo">
+            
+			
+			
+			
+			</br></br><input type="submit" value="Valider"></input></br></br>
+            
+
+
+        </form>
+
+    </div>
+    </body>
+</html>
+

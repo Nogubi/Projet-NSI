@@ -1,0 +1,23 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Arial black;
+    background-image: url(Image/founde.jpg);
+    margin: 50px 0;
+    text-align: center;
+}
+.grille { 
+    max-width: 1300px; 
+    width: 80%; 
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid #333; 
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+.grid-item {
+    width: 300px;
+    height: 200px;
+    background: #333;
+}
