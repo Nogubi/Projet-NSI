@@ -9,7 +9,13 @@ header{
 	height: 50px;
 }
 
-
+img{
+	max-width:200px;
+	max-height:200px;
+	border:2px solid rgb(189, 22, 22);
+	object-fit: contain;
+	border-radius: 5px;
+}
 aside{
 	position: absolute;
 	top:10px;

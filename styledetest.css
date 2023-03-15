@@ -1,6 +1,6 @@
 body {
     color: rgb(0, 0, 0);
-    font-family: Arial black;
+    font-family: Arial rgb(108, 23, 23);
     background-image: url(Image/founde.jpg);
     margin: 50px 0;
     text-align: center;
@@ -10,14 +10,23 @@ body {
     width: 80%; 
     height: auto;
     margin: 30px auto;
-    border: 1px solid #333; 
     display: grid;  
     grid-template-columns: repeat(auto-fill, 300px);
     justify-content: center;
     grid-gap: 10px;
 }
 .grid-item {
-    width: 300px;
-    height: 200px;
-    background: #333;
+    text-align:center;
+    max-width: 300px;
+    max-height: 200px;
+    background:rgba(214, 211, 20, 0.95);
+    border-radius: 5px;
+    font-size:1em;
+    font-family:Georgia;
+    
+}
+img{
+    max-width:160px;
+    max-height:160px;
+    border-radius:1px;
 }
